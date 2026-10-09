@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://c07lpc24l4mev"]
+
+[ext_resource type="Script" uid="uid://4fsub18epcko" path="res://rigid_body_2d.gd" id="1_jiowd"]
+[ext_resource type="Texture2D" uid="uid://bk5jvqe11qkob" path="res://image-removebg-preview (7).png" id="2_2x7xp"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fit44"]
+radius = 15.0
+height = 36.0
+
+[node name="RigidBody2D" type="RigidBody2D" unique_id=2015250135]
+position = Vector2(193, -3498)
+script = ExtResource("1_jiowd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2059941993]
+position = Vector2(-0.99999607, 7.987023e-06)
+scale = Vector2(0.38513514, 0.23648648)
+texture = ExtResource("2_2x7xp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1315570559]
+shape = SubResource("CapsuleShape2D_fit44")

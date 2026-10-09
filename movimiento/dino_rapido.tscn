@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://eb6weg7m3k73"]
+
+[ext_resource type="Script" uid="uid://cl7sd2wy233qx" path="res://dino_rapido.gd" id="1_ecjto"]
+[ext_resource type="Texture2D" uid="uid://clj6g7iokv4n3" path="res://image-removebg-preview (8).png" id="2_r33yx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fit44"]
+height = 38.0
+
+[node name="dino_Rapido" type="CharacterBody2D" unique_id=531456063]
+script = ExtResource("1_ecjto")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1692009469]
+position = Vector2(-0.5094372, 0.20889476)
+scale = Vector2(0.09048804, 0.07832905)
+texture = ExtResource("2_r33yx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=745140921]
+shape = SubResource("CapsuleShape2D_fit44")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=340106295]
+position = Vector2(0, 9)
+rect = Rect2(-10, -28, 20, 38)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

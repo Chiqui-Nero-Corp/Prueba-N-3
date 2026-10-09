@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c1efa16wgmpn5"]
+
+[ext_resource type="Script" uid="uid://wdpesop2y0lt" path="res://dino_base.gd" id="1_ljr6x"]
+[ext_resource type="Texture2D" uid="uid://bfmffxtsb20ty" path="res://image-removebg-preview (4).png" id="2_pwgwc"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fit44"]
+height = 44.0
+
+[node name="Dino base" type="CharacterBody2D" unique_id=1188810918]
+script = ExtResource("1_ljr6x")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=565899542]
+scale = Vector2(0.12695749, 0.13702454)
+texture = ExtResource("2_pwgwc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=234131120]
+shape = SubResource("CapsuleShape2D_fit44")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=434367444]
+rect = Rect2(-10, -21, 20, 42)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
