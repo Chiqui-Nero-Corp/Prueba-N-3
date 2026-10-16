@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dy4xyb71hqsta"]
+
+[ext_resource type="Script" uid="uid://dlr5xds8oi85a" path="res://bot.gd" id="1_mo174"]
+[ext_resource type="Texture2D" uid="uid://bfmffxtsb20ty" path="res://image-removebg-preview (4).png" id="2_5unqy"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fit44"]
+height = 36.0
+
+[node name="bot" type="CharacterBody2D" unique_id=844010054]
+position = Vector2(111, 90)
+script = ExtResource("1_mo174")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1056842467]
+scale = Vector2(0.11800893, 0.114653245)
+texture = ExtResource("2_5unqy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=82138305]
+position = Vector2(0, 1)
+shape = SubResource("CapsuleShape2D_fit44")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=33406044]
+rect = Rect2(-10, -18, 20, 36)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
