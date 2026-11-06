@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c0ciaqdi87gya"]
+
+[ext_resource type="Script" uid="uid://dsiew6t83q0m8" path="res://meteorito.gd" id="1_js7l0"]
+[ext_resource type="Texture2D" uid="uid://dkrpj6y6cr28n" path="res://METEORITO__1_-removebg-preview.png" id="2_sq8w6"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mbx6k"]
+radius = 35.0
+height = 114.016174
+
+[node name="Node2D" type="Area2D" unique_id=1193319771]
+script = ExtResource("1_js7l0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=121234142]
+position = Vector2(147.75, 80.75)
+rotation = -0.9775316
+scale = Vector2(0.4357045, 0.36510265)
+texture = ExtResource("2_sq8w6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1390163865]
+position = Vector2(110, 165)
+rotation = 0.3796762
+shape = SubResource("CapsuleShape2D_mbx6k")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
