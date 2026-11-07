@@ -223,13 +223,13 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 | 2026-10-23 | No | sin actividad | 0 / 0 |
 | 2026-10-26 | No | sin actividad | 0 / 0 |
 
-#### Aportes fuera del calendario de clases
+#### Aportes fuera del calendario de clases — Lisandro Hellín
 
-**1 fecha fuera del calendario** · 1 commit · 1 merge
+**Lisandro Hellín — 1 fecha fuera del calendario** · 1 commit · 1 merge
 
-| Fecha | Repositorios | Commits / merges |
-|---|---|--:|
-| 2026-11-06 | Prueba-N-3 | 1 / 1 |
+| Alumno | Fecha | Repositorios | Commits / merges |
+|---|---|---|---|
+| Lisandro Hellín (`67LisanHellin67`) | 2026-11-06 | Prueba-N-3 | 1 / 1 |
 
 ### Máximo Acurra
 
@@ -255,9 +255,9 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 | 2026-10-23 | No | sin actividad | 0 / 0 |
 | 2026-10-26 | No | sin actividad | 0 / 0 |
 
-#### Aportes fuera del calendario de clases
+#### Aportes fuera del calendario de clases — Máximo Acurra
 
-_Sin aportes fuera del calendario de clases._
+_Sin aportes fuera del calendario de clases para Máximo Acurra._
 
 <!-- actividad-clases:fin -->
 
