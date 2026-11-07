@@ -189,11 +189,11 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 <!-- actividad-clases:inicio -->
 ## Actividad en días de clase
 
-> Período **2026-08-14 → 2026-10-29** · **17 clases** (lunes, viernes) · calendario oficial de la materia.
+> Período evaluado **2026-08-14 → 2026-11-07** · **20 clases** (lunes, viernes) · días de clase del calendario, extendidos hasta la fecha de corte.
 >
 > `Commits` = commits de trabajo (no-merge); `Merges` = merges de PR (también son push). Los días sin actividad dicen **sin actividad**. El cuadro principal usa sólo las fechas de clase del calendario oficial.
 >
-> **Aportes fuera del calendario:** cada alumno tiene un cuadro aparte con las fechas no lectivas con actividad, desde **2026-08-14** hasta **2026-11-06** (ventana de aportes). Esas fechas no forman parte del cuadro principal, pero se muestran para no perder trabajo hecho en fines de semana, feriados o después del período.
+> **Aportes fuera del calendario:** cada alumno tiene un cuadro aparte con las fechas no lectivas con actividad, desde **2026-08-14** hasta **2026-11-07** (ventana de aportes). Esas fechas no forman parte del cuadro principal, pero se muestran para no perder trabajo hecho en fines de semana, feriados o después del período.
 >
 > Se recorre `git log --all` sobre un mirror (todas las ramas y `refs/pull/*`), con deduplicación por commit. Fecha = fecha de autor en UTC-3. Los commits locales no pusheados no se ven. Si el trabajo fue en pareja y el commit es de otra persona, figura a nombre del autor del commit; para reflejarlo, usar `Co-authored-by` o una nota manual.
 >
@@ -201,7 +201,7 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 
 ### Lisandro Hellín
 
-**2/17 clases con actividad** · 1 commit · 1 merge
+**3/20 clases con actividad** · 2 commits · 2 merges
 
 | Fecha | Marca | Repositorios | Commits / merges |
 |---|:--:|---|--:|
@@ -222,18 +222,17 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 | 2026-10-19 | No | sin actividad | 0 / 0 |
 | 2026-10-23 | No | sin actividad | 0 / 0 |
 | 2026-10-26 | No | sin actividad | 0 / 0 |
+| 2026-10-30 | No | sin actividad | 0 / 0 |
+| 2026-11-02 | No | sin actividad | 0 / 0 |
+| 2026-11-06 | **Sí** | Prueba-N-3 | 1 / 1 |
 
 #### Aportes fuera del calendario de clases — Lisandro Hellín
 
-**Lisandro Hellín — 1 fecha fuera del calendario** · 1 commit · 1 merge
-
-| Alumno | Fecha | Repositorios | Commits / merges |
-|---|---|---|---|
-| Lisandro Hellín (`67LisanHellin67`) | 2026-11-06 | Prueba-N-3 | 1 / 1 |
+_Sin aportes fuera del calendario de clases para Lisandro Hellín._
 
 ### Máximo Acurra
 
-**2/17 clases con actividad** · 2 commits · 0 merges
+**2/20 clases con actividad** · 2 commits · 0 merges
 
 | Fecha | Marca | Repositorios | Commits / merges |
 |---|:--:|---|--:|
@@ -254,6 +253,9 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 | 2026-10-19 | **Sí** | Prueba-N-3 | 1 / 0 |
 | 2026-10-23 | No | sin actividad | 0 / 0 |
 | 2026-10-26 | No | sin actividad | 0 / 0 |
+| 2026-10-30 | No | sin actividad | 0 / 0 |
+| 2026-11-02 | No | sin actividad | 0 / 0 |
+| 2026-11-06 | No | sin actividad | 0 / 0 |
 
 #### Aportes fuera del calendario de clases — Máximo Acurra
 
