@@ -3,7 +3,7 @@
 
 > Documento **generado automáticamente** por la cátedra de Programación II (RepoSense + análisis de calidad POO/SOLID). **No editar a mano**: se regenera en cada evaluación.
 > Rama evaluada: `main`. Análisis **heurístico** (regex + métricas): es una criba para orientar la revisión, **no una nota**.
-> Generado: 2026-11-17.
+> Generado: 2026-11-20.
 
 ## 1. Veredicto
 
@@ -187,16 +187,30 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 - **Por qué importa:** Es comportamiento procedural disfrazado de clase: no se instancia ni participa del modelo de objetos.
 - **Tu resultado:** **0** clase(s) solo con métodos estáticos
 
+### Archivos donde se originan las señales
+
+> Se listan **7** hallazgo(s) localizados en **2** archivo(s). La columna `Línea` es la línea del archivo donde el análisis detectó la señal; `—` indica una señal de nivel repositorio (sin archivo propio).
+
+| Aspecto | Archivo | Línea | Hallazgo |
+|---|---|---:|---|
+| Duplicación lógica (DRY) | — | — | duplicación lógica: 33.8% · boilerplate: 0.0% |
+| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 7 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:7, movimiento/bot.gd:7, movimiento/dino_rapido.gd:7 |
+| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 8 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:8, movimiento/bot.gd:8, movimiento/dino_rapido.gd:8 |
+| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 10 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:10, movimiento/bot.gd:10, movimiento/dino_rapido.gd:10 |
+| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 11 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:11, movimiento/bot.gd:12, movimiento/dino_rapido.gd:11 |
+| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 14 | bloque de 8 líneas repetido 3 veces en movimiento/dino_base.gd:14, movimiento/dino_rapido.gd:14, movimiento/dino_acorazado.gd:14 |
+| Campos mutables públicos (encapsulación) | `movimiento/spawner_timer.gd` | 1 | clase 'spawner_timer' con 5 campos mutables públicos (encapsulación) |
+
 ## 5. Evolución por commit
 
-Métricas calculadas sobre el estado de `main` en **cada commit** (11 commits con trabajo), del primero al último. La calidad usa el perfil `exigente`; el aporte de código lo mide RepoSense. El índice puede **bajar** al crecer el proyecto: se acumulan señales.
+Métricas calculadas sobre el estado de `main` en **cada commit** (12 commits con trabajo), del primero al último. La calidad usa el perfil `exigente`; el aporte de código lo mide RepoSense. El índice puede **bajar** al crecer el proyecto: se acumulan señales.
 
 ```mermaid
 xychart-beta
     title "Índice POO/SOLID a lo largo de los commits"
-    x-axis ["a7a2246", "0ec78d4", "576cd15", "7061fc8", "bbd3ebc", "be2d2d7", "687b3b8", "d61e329", "490ad22", "980d5a0", "35f2da2"]
+    x-axis ["a7a2246", "0ec78d4", "576cd15", "7061fc8", "bbd3ebc", "be2d2d7", "687b3b8", "d61e329", "490ad22", "980d5a0", "35f2da2", "cbed39c"]
     y-axis "Índice" 0 --> 100
-    line [0, 0, 0, 24, 24, 24, 24, 24, 24, 24, 24]
+    line [0, 0, 0, 24, 24, 24, 24, 24, 24, 24, 24, 24]
 ```
 
 | # | Fecha | Commit | Autor | LOC | Índice | %POO | Duplic. | Sueltas |
@@ -212,87 +226,7 @@ xychart-beta
 | 9 | 2026-11-13 | `490ad22` | dqmdz-etec | 195 | 24 | 100% | 33.8% | 0 |
 | 10 | 2026-11-14 | `980d5a0` | dqmdz-etec | 195 | 24 | 100% | 33.8% | 0 |
 | 11 | 2026-11-16 | `35f2da2` | dqmdz-etec | 195 | 24 | 100% | 33.8% | 0 |
-
-<!-- actividad-clases:inicio -->
-## Actividad en días de clase
-
-> Período evaluado **2026-08-14 → 2026-11-17** · **22 clases** (lunes, viernes) · días de clase del calendario, extendidos hasta la fecha de corte.
->
-> `Commits` = commits de trabajo (no-merge); `Merges` = merges de PR (también son push). Los días sin actividad dicen **sin actividad**. El cuadro principal usa sólo las fechas de clase del calendario oficial.
->
-> **Aportes fuera del calendario:** cada alumno tiene un cuadro aparte con las fechas no lectivas con actividad, desde **2026-08-14** hasta **2026-11-17** (ventana de aportes). Esas fechas no forman parte del cuadro principal, pero se muestran para no perder trabajo hecho en fines de semana, feriados o después del período.
->
-> Se recorre `git log --all` sobre un mirror (todas las ramas y `refs/pull/*`), con deduplicación por commit. Fecha = fecha de autor en UTC-3. Los commits locales no pusheados no se ven. Si el trabajo fue en pareja y el commit es de otra persona, figura a nombre del autor del commit; para reflejarlo, usar `Co-authored-by` o una nota manual.
->
-> Sección informativa: no modifica el semáforo de aprobación.
-
-### Lisandro Hellín
-
-**3/22 clases con actividad** · 2 commits · 2 merges
-
-| Fecha | Marca | Repositorios | Commits / merges |
-|---|:--:|---|--:|
-| 2026-08-14 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-08-21 | No | sin actividad | 0 / 0 |
-| 2026-08-24 | No | sin actividad | 0 / 0 |
-| 2026-08-28 | No | sin actividad | 0 / 0 |
-| 2026-08-31 | No | sin actividad | 0 / 0 |
-| 2026-09-04 | No | sin actividad | 0 / 0 |
-| 2026-09-07 | No | sin actividad | 0 / 0 |
-| 2026-09-14 | No | sin actividad | 0 / 0 |
-| 2026-09-25 | No | sin actividad | 0 / 0 |
-| 2026-09-28 | No | sin actividad | 0 / 0 |
-| 2026-10-02 | No | sin actividad | 0 / 0 |
-| 2026-10-05 | No | sin actividad | 0 / 0 |
-| 2026-10-09 | No | sin actividad | 0 / 0 |
-| 2026-10-16 | **Sí** | Prueba-N-3 | 0 / 1 |
-| 2026-10-19 | No | sin actividad | 0 / 0 |
-| 2026-10-23 | No | sin actividad | 0 / 0 |
-| 2026-10-26 | No | sin actividad | 0 / 0 |
-| 2026-10-30 | No | sin actividad | 0 / 0 |
-| 2026-11-02 | No | sin actividad | 0 / 0 |
-| 2026-11-06 | **Sí** | Prueba-N-3 | 1 / 1 |
-| 2026-11-13 | No | sin actividad | 0 / 0 |
-| 2026-11-16 | No | sin actividad | 0 / 0 |
-
-#### Aportes fuera del calendario de clases — Lisandro Hellín
-
-_Sin aportes fuera del calendario de clases para Lisandro Hellín._
-
-### Máximo Acurra
-
-**2/22 clases con actividad** · 2 commits · 0 merges
-
-| Fecha | Marca | Repositorios | Commits / merges |
-|---|:--:|---|--:|
-| 2026-08-14 | No | sin actividad | 0 / 0 |
-| 2026-08-21 | No | sin actividad | 0 / 0 |
-| 2026-08-24 | No | sin actividad | 0 / 0 |
-| 2026-08-28 | No | sin actividad | 0 / 0 |
-| 2026-08-31 | No | sin actividad | 0 / 0 |
-| 2026-09-04 | No | sin actividad | 0 / 0 |
-| 2026-09-07 | No | sin actividad | 0 / 0 |
-| 2026-09-14 | No | sin actividad | 0 / 0 |
-| 2026-09-25 | No | sin actividad | 0 / 0 |
-| 2026-09-28 | No | sin actividad | 0 / 0 |
-| 2026-10-02 | No | sin actividad | 0 / 0 |
-| 2026-10-05 | No | sin actividad | 0 / 0 |
-| 2026-10-09 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-10-16 | No | sin actividad | 0 / 0 |
-| 2026-10-19 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-10-23 | No | sin actividad | 0 / 0 |
-| 2026-10-26 | No | sin actividad | 0 / 0 |
-| 2026-10-30 | No | sin actividad | 0 / 0 |
-| 2026-11-02 | No | sin actividad | 0 / 0 |
-| 2026-11-06 | No | sin actividad | 0 / 0 |
-| 2026-11-13 | No | sin actividad | 0 / 0 |
-| 2026-11-16 | No | sin actividad | 0 / 0 |
-
-#### Aportes fuera del calendario de clases — Máximo Acurra
-
-_Sin aportes fuera del calendario de clases para Máximo Acurra._
-
-<!-- actividad-clases:fin -->
+| 12 | 2026-11-17 | `cbed39c` | dqmdz-etec | 195 | 24 | 100% | 33.8% | 0 |
 
 ---
 _Informe generado por la cátedra. Los criterios y umbrales de medición corresponden al perfil `exigente` de `calidad.py`; el semáforo de aprobación, a `CRITERIOS-CALIDAD.md` (ver `README.md`). Ante dudas, revisá el archivo señalado._
