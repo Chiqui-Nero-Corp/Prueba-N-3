@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cfe574hxblvuj"]
 
 [ext_resource type="Script" uid="uid://ob3qb7ydxcvd" path="res://spawner_timer.gd" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://cqnpc3u1daqjt" path="res://spawner_dino_rapido.gd" id="2_epypp"]
+[ext_resource type="Script" uid="uid://b1xhtvpmj36jf" path="res://spawner_dino_acorazado.gd" id="3_epypp"]
 
 [node name="Node2D" type="Node2D" unique_id=1469555994]
 position = Vector2(-1, 1)
@@ -10,4 +12,18 @@ script = ExtResource("2_0e48y")
 
 [node name="Timer" type="Timer" parent="Spawner timer" unique_id=1872012333]
 wait_time = 1.0299999999999998
+autostart = true
+
+[node name="Spawner dino_rapido" type="Node2D" parent="." unique_id=472950020]
+script = ExtResource("2_epypp")
+
+[node name="Timer_dino_rapido" type="Timer" parent="Spawner dino_rapido" unique_id=1423482699]
+wait_time = 2.35
+autostart = true
+
+[node name="Spawner dino_acorazado" type="Node2D" parent="." unique_id=1727615738]
+script = ExtResource("3_epypp")
+
+[node name="Timer_dino_acorazado" type="Timer" parent="Spawner dino_acorazado" unique_id=1757814869]
+wait_time = 4.5
 autostart = true
