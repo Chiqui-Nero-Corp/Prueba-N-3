@@ -9,16 +9,15 @@
 
 | Aspecto | Resultado |
 |---|---|
-| Índice de calidad POO/SOLID | **30/100** |
-| Commit evaluado | `60526552d9ad` (2026-11-25) |
-| Código (LOC) | 231 |
-| Archivos de código | 11 |
-| Clases (bien usadas) | 11 (11 OK) |
+| Índice de calidad POO/SOLID | **65/100** |
+| Commit evaluado | `783dc73535f5` (2026-11-27) |
+| Código (LOC) | 68 |
+| Archivos de código | 3 |
+| Clases (bien usadas) | 3 (3 OK) |
 | Código dentro de clases (%POO) | 100% |
 | Funciones fuera de clases | 0 |
-| Duplicación lógica | 31.0% |
+| Duplicación lógica | 0.0% |
 | Señales S/O/L/I/D | 0/0/0/0/0 |
-| Tope duro aplicado | `DUP>=30%` → índice ≤ 30 |
 
 > Este informe **describe** lo que el análisis midió con los criterios ya establecidos de la materia. No es una nota.
 
@@ -28,15 +27,15 @@ Criterios de `CRITERIOS-CALIDAD.md`. **Aprobar** se juega con el perfil `estanda
 
 | Semáforo | Resultado |
 |---|---|
-| Aprobar (`estandar`) | **no cumple** — 3/4 |
-| Destacar (`exigente`) | **no cumple** — 3/5 |
+| Aprobar (`estandar`) | **cumple** — 4/4 |
+| Destacar (`exigente`) | **cumple** — 5/5 |
 
 **Criterios para aprobar**
 
 | Criterio | Requisito | Tu resultado | Cumple |
 |---|---|---|---|
 | Código dentro de clases (%POO) | ≥ 85% | 100% | sí |
-| Duplicación lógica | ≤ 10% | 31.0% | no |
+| Duplicación lógica | ≤ 10% | 0.0% | sí |
 | Funciones fuera de clases | ≤ 1 | 0 | sí |
 | Señales POO/SOLID críticas | ninguna | ninguna | sí |
 
@@ -45,10 +44,10 @@ Criterios de `CRITERIOS-CALIDAD.md`. **Aprobar** se juega con el perfil `estanda
 | Criterio | Requisito | Tu resultado | Cumple |
 |---|---|---|---|
 | Código dentro de clases (%POO) | ≥ 95% | 100% | sí |
-| Duplicación lógica | ≤ 5% | 31.0% | no |
+| Duplicación lógica | ≤ 5% | 0.0% | sí |
 | Funciones fuera de clases | ≤ 1 | 0 | sí |
 | Señales POO/SOLID críticas | ninguna | ninguna | sí |
-| Índice de calidad POO/SOLID | ≥ 60 | 30/100 | no |
+| Índice de calidad POO/SOLID | ≥ 60 | 65/100 | sí |
 
 ### Última actividad en cualquier rama
 
@@ -56,8 +55,8 @@ Criterios de `CRITERIOS-CALIDAD.md`. **Aprobar** se juega con el perfil `estanda
 
 | | Fecha (UTC-3) | Usuario | Rama | Commit | Mensaje |
 |---|---|---|---|---|---|
-| Último commit | 2026-11-25 10:41 | @dqmdz-etec | `main` | `60526552` | docs: actividad en días de clase (calendario oficial) |
-| Último commit de alumno | 2026-11-06 08:52 | 67LisanHellin67 | `14-prototipo-1` | `1aa231c5` | tpm |
+| Último commit | 2026-11-27 09:53 | @dqmdz-etec | `main` | `783dc735` | Merge pull request #20 from Chiqui-Nero-Corp/19-juego-es-una-pena-terrible |
+| Último commit de alumno | 2026-11-27 09:47 | @maximoascurra-hub | `19-juego-es-una-pena-terrible` | `7dc9d68d` | Es una pena terrible |
 
 ### Cómo se calcula el %POO (y por qué no sube solo)
 
@@ -71,21 +70,18 @@ Sube cuando el código que hoy está **fuera** de clases pasa a ser método de u
 
 | Autor | Commits | Código (LOC) | Tests (LOC) | Docs (LOC) | Días activos | % del código |
 |---|---:|---:|---:|---:|---:|---:|
-| Máximo Acurra | 2 | 232 | 0 | 0 | 2 | 74% |
-| Lisandro Hellín | 2 | 82 | 0 | 2 | 3 | 26% |
+| Lisandro Hellín | 2 | 82 | 0 | 2 | 3 | 100% |
+| Máximo Acurra | 3 | 0 | 0 | 0 | 3 | 0% |
 
 > _El LOC de autoría lo calcula RepoSense sobre el historial y puede diferir del LOC de código del análisis de calidad (que mira solo el estado de `main`)._
 
-> **Reparto del trabajo:** Máximo Acurra concentra el 74% de las líneas de código. Un reparto muy desigual suele indicar que la integración no fue realmente en equipo; vale la pena reconstruir cómo se coordinó.
+> **Reparto del trabajo:** Lisandro Hellín concentra el 100% de las líneas de código. Un reparto muy desigual suele indicar que la integración no fue realmente en equipo; vale la pena reconstruir cómo se coordinó.
 
 ## 3. Fallas detectadas
 
 Reúne lo que el análisis marcó y lo que todavía falta para cada semáforo. Cuando la señal se puede asociar a archivos, se indican para orientar la revisión. No es una nota.
 
-| Falla | Tu resultado | Requisito | Archivos |
-|---|---|---|---|
-| Duplicación lógica | 31.0% | Aprobar: ≤ 10%<br>Destacar: ≤ 5% | `movimiento/dino_base.gd` |
-| Índice de calidad POO/SOLID | 30/100 | Destacar: ≥ 60 | — |
+_No se detectaron fallas: no hay criterios pendientes ni señales en el análisis._
 
 ## 4. Aspectos evaluados
 
@@ -95,17 +91,13 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 
 - **Qué mide:** Un resumen numérico (0-100) que combina la riqueza de clases bien usadas con la penalización por señales POO/SOLID y duplicación, y luego aplica topes duros.
 - **Por qué importa:** Ordena y prioriza la revisión: un índice bajo indica varias señales que conviene mirar juntas.
-- **Tu resultado:** índice **30/100**
+- **Tu resultado:** índice **65/100**
 
-### 2. Duplicación lógica (DRY) (duplicacion) — con señales
+### 2. Duplicación lógica (DRY) (duplicacion) — sin señales
 
 - **Qué mide:** Porcentaje de bloques de LÓGICA repetidos. Quedan fuera imports/includes, anotaciones, declaraciones de campos y comentarios/Javadoc/docstrings: esos bloques son boilerplate, no lógica.
 - **Por qué importa:** Cada copia de lógica se mantiene por separado: un arreglo hay que repetirlo y los defectos se multiplican.
-- **Tu resultado:** **31.0%** de duplicación lógica
-- **Para investigar la causa:**
-    - ¿El trabajo se repartió por pantallas o archivos y se integró copiando y pegando bloques?
-    - ¿Qué zonas del sistema cambiaron juntas más de una vez (señal de lógica compartida)?
-    - ¿Hubo un lugar común acordado para la lógica repetida antes de empezar, o cada integrante resolvió lo suyo?
+- **Tu resultado:** **0.0%** de duplicación lógica
 
 ### 3. Adopción de POO (% de código en clases) (poo) — sin señales
 
@@ -192,34 +184,6 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 - **Por qué importa:** Es comportamiento procedural disfrazado de clase: no se instancia ni participa del modelo de objetos.
 - **Tu resultado:** **0** clase(s) solo con métodos estáticos
 
-### Resumen de señales por tipo
-
-| Señal | Cantidad | Principio | Archivos |
-|---|---:|---|---:|
-| bloque duplicado | 5 | DRY | 1 |
-| duplicación | 1 | DRY | 0 |
-
-### Resumen por archivo
-
-> Archivos ordenados por cantidad de señales. Se excluyen **1** señal(es) de nivel repositorio sin archivo propio.
-
-| Archivo | Señales | Aspectos | Líneas |
-|---|---:|---|---|
-| `movimiento/dino_base.gd` | 5 | DRY | 7, 8, 10, 11, 14 |
-
-### Archivos donde se originan las señales
-
-> Se listan **6** hallazgo(s) localizados en **1** archivo(s). La columna `Línea` es la línea del archivo donde el análisis detectó la señal; `—` indica una señal de nivel repositorio (sin archivo propio).
-
-| Aspecto | Archivo | Línea | Hallazgo |
-|---|---|---:|---|
-| Duplicación lógica (DRY) | — | — | duplicación lógica: 31.0% · boilerplate: 0.0% |
-| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 7 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:7, movimiento/bot.gd:7, movimiento/dino_rapido.gd:7 |
-| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 8 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:8, movimiento/bot.gd:8, movimiento/dino_rapido.gd:8 |
-| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 10 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:10, movimiento/bot.gd:10, movimiento/dino_rapido.gd:10 |
-| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 11 | bloque de 8 líneas repetido 4 veces en movimiento/dino_base.gd:11, movimiento/bot.gd:12, movimiento/dino_rapido.gd:11 |
-| Duplicación lógica (DRY) | `movimiento/dino_base.gd` | 14 | bloque de 8 líneas repetido 3 veces en movimiento/dino_base.gd:14, movimiento/dino_rapido.gd:14, movimiento/dino_acorazado.gd:14 |
-
 ### Umbrales aplicados (perfil exigente)
 
 | Señal | Regla |
@@ -241,14 +205,14 @@ Cada aspecto indica **qué mide**, **por qué importa** y **tu resultado**. Cuan
 
 ## 5. Evolución por commit
 
-Métricas calculadas sobre el estado de `main` en **cada commit** (18 commits con trabajo), del primero al último. La calidad usa el perfil `exigente`; el aporte de código lo mide RepoSense. El índice puede **bajar** al crecer el proyecto: se acumulan señales.
+Métricas calculadas sobre el estado de `main` en **cada commit** (21 commits con trabajo), del primero al último. La calidad usa el perfil `exigente`; el aporte de código lo mide RepoSense. El índice puede **bajar** al crecer el proyecto: se acumulan señales.
 
 ```mermaid
 xychart-beta
     title "Índice POO/SOLID a lo largo de los commits"
-    x-axis ["a7a2246", "0ec78d4", "576cd15", "7061fc8", "bbd3ebc", "be2d2d7", "687b3b8", "d61e329", "490ad22", "980d5a0", "35f2da2", "cbed39c", "adb5fb8", "a5a5e15", "5ce0dad", "4d60222", "7873275", "6052655"]
+    x-axis ["a7a2246", "0ec78d4", "576cd15", "7061fc8", "bbd3ebc", "be2d2d7", "687b3b8", "d61e329", "490ad22", "980d5a0", "35f2da2", "cbed39c", "adb5fb8", "a5a5e15", "5ce0dad", "4d60222", "7873275", "6052655", "4a1cfe9", "2872ebf", "783dc73"]
     y-axis "Índice" 0 --> 100
-    line [0, 0, 0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 30, 30, 30, 30, 30]
+    line [0, 0, 0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 30, 30, 30, 30, 30, 30, 65, 65]
 ```
 
 | # | Fecha | Commit | Autor | LOC | Índice | %POO | Duplic. | Sueltas |
@@ -271,91 +235,9 @@ xychart-beta
 | 16 | 2026-11-20 | `4d60222` | dqmdz-etec | 231 | 30 | 100% | 31.0% | 0 |
 | 17 | 2026-11-20 | `7873275` | dqmdz-etec | 231 | 30 | 100% | 31.0% | 0 |
 | 18 | 2026-11-25 | `6052655` | dqmdz-etec | 231 | 30 | 100% | 31.0% | 0 |
-
-<!-- actividad-clases:inicio -->
-## Actividad en días de clase
-
-> Período evaluado **2026-08-14 → 2026-11-27** · **24 clases** (lunes, viernes) · días de clase del calendario, extendidos hasta la fecha de corte.
->
-> `Commits` = commits de trabajo (no-merge); `Merges` = merges de PR (también son push). Los días sin actividad dicen **sin actividad**. El cuadro principal usa sólo las fechas de clase del calendario oficial.
->
-> **Aportes fuera del calendario:** cada alumno tiene un cuadro aparte con las fechas no lectivas con actividad, desde **2026-08-14** hasta **2026-11-27** (ventana de aportes). Esas fechas no forman parte del cuadro principal, pero se muestran para no perder trabajo hecho en fines de semana, feriados o después del período.
->
-> Se recorre `git log --all` sobre un mirror (todas las ramas y `refs/pull/*`), con deduplicación por commit. Fecha = fecha de autor en UTC-3. Los commits locales no pusheados no se ven. Si el trabajo fue en pareja y el commit es de otra persona, figura a nombre del autor del commit; para reflejarlo, usar `Co-authored-by` o una nota manual.
->
-> Sección informativa: no modifica el semáforo de aprobación.
-
-### Lisandro Hellín
-
-**3/24 clases con actividad** · 2 commits · 2 merges
-
-| Fecha | Marca | Repositorios | Commits / merges |
-|---|:--:|---|--:|
-| 2026-08-14 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-08-21 | No | sin actividad | 0 / 0 |
-| 2026-08-24 | No | sin actividad | 0 / 0 |
-| 2026-08-28 | No | sin actividad | 0 / 0 |
-| 2026-08-31 | No | sin actividad | 0 / 0 |
-| 2026-09-04 | No | sin actividad | 0 / 0 |
-| 2026-09-07 | No | sin actividad | 0 / 0 |
-| 2026-09-14 | No | sin actividad | 0 / 0 |
-| 2026-09-25 | No | sin actividad | 0 / 0 |
-| 2026-09-28 | No | sin actividad | 0 / 0 |
-| 2026-10-02 | No | sin actividad | 0 / 0 |
-| 2026-10-05 | No | sin actividad | 0 / 0 |
-| 2026-10-09 | No | sin actividad | 0 / 0 |
-| 2026-10-16 | **Sí** | Prueba-N-3 | 0 / 1 |
-| 2026-10-19 | No | sin actividad | 0 / 0 |
-| 2026-10-23 | No | sin actividad | 0 / 0 |
-| 2026-10-26 | No | sin actividad | 0 / 0 |
-| 2026-10-30 | No | sin actividad | 0 / 0 |
-| 2026-11-02 | No | sin actividad | 0 / 0 |
-| 2026-11-06 | **Sí** | Prueba-N-3 | 1 / 1 |
-| 2026-11-13 | No | sin actividad | 0 / 0 |
-| 2026-11-16 | No | sin actividad | 0 / 0 |
-| 2026-11-20 | No | sin actividad | 0 / 0 |
-| 2026-11-27 | No | sin actividad | 0 / 0 |
-
-#### Aportes fuera del calendario de clases — Lisandro Hellín
-
-_Sin aportes fuera del calendario de clases para Lisandro Hellín._
-
-### Máximo Acurra
-
-**2/24 clases con actividad** · 2 commits · 0 merges
-
-| Fecha | Marca | Repositorios | Commits / merges |
-|---|:--:|---|--:|
-| 2026-08-14 | No | sin actividad | 0 / 0 |
-| 2026-08-21 | No | sin actividad | 0 / 0 |
-| 2026-08-24 | No | sin actividad | 0 / 0 |
-| 2026-08-28 | No | sin actividad | 0 / 0 |
-| 2026-08-31 | No | sin actividad | 0 / 0 |
-| 2026-09-04 | No | sin actividad | 0 / 0 |
-| 2026-09-07 | No | sin actividad | 0 / 0 |
-| 2026-09-14 | No | sin actividad | 0 / 0 |
-| 2026-09-25 | No | sin actividad | 0 / 0 |
-| 2026-09-28 | No | sin actividad | 0 / 0 |
-| 2026-10-02 | No | sin actividad | 0 / 0 |
-| 2026-10-05 | No | sin actividad | 0 / 0 |
-| 2026-10-09 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-10-16 | No | sin actividad | 0 / 0 |
-| 2026-10-19 | **Sí** | Prueba-N-3 | 1 / 0 |
-| 2026-10-23 | No | sin actividad | 0 / 0 |
-| 2026-10-26 | No | sin actividad | 0 / 0 |
-| 2026-10-30 | No | sin actividad | 0 / 0 |
-| 2026-11-02 | No | sin actividad | 0 / 0 |
-| 2026-11-06 | No | sin actividad | 0 / 0 |
-| 2026-11-13 | No | sin actividad | 0 / 0 |
-| 2026-11-16 | No | sin actividad | 0 / 0 |
-| 2026-11-20 | No | sin actividad | 0 / 0 |
-| 2026-11-27 | No | sin actividad | 0 / 0 |
-
-#### Aportes fuera del calendario de clases — Máximo Acurra
-
-_Sin aportes fuera del calendario de clases para Máximo Acurra._
-
-<!-- actividad-clases:fin -->
+| 19 | 2026-11-27 | `4a1cfe9` | dqmdz-etec | 231 | 30 | 100% | 31.0% | 0 |
+| 20 | 2026-11-27 | `2872ebf` | maximoascurra-hub | 68 | 65 | 100% | 0.0% | 0 |
+| 21 | 2026-11-27 | `783dc73` | dqmdz-etec | 68 | 65 | 100% | 0.0% | 0 |
 
 ---
 _Informe generado por la cátedra. Los criterios y umbrales de medición corresponden al perfil `exigente` de `calidad.py`; el semáforo de aprobación, a `CRITERIOS-CALIDAD.md` (ver `README.md`). Ante dudas, revisá el archivo señalado._
