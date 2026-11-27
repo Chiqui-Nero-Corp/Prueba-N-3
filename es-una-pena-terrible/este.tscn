@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://c4nbtfilnxked"]
+
+[ext_resource type="Script" path="res://este.gd" id="1_kepwl"]
+[ext_resource type="Texture2D" path="res://ESTE (2).png" id="2_yciag"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2p4aw"]
+size = Vector2(171, 106)
+
+[sub_resource type="Animation" id="Animation_1pvl4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_66joy"]
+resource_name = "correr"
+length = 1.8666667
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.33333334, 0.6666667, 1, 1.3333334, 1.6666666),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.12217305, 0.2443461, -0.12217305, -0.2443461, 0.12217305]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kepwl"]
+_data = {
+&"RESET": SubResource("Animation_1pvl4"),
+&"correr": SubResource("Animation_66joy")
+}
+
+[node name="Node2D" type="Area2D" unique_id=824407061]
+visible = false
+script = ExtResource("1_kepwl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1749387061]
+visible = false
+position = Vector2(9.536743e-07, 7.6293945e-06)
+scale = Vector2(0.27290323, 0.22981367)
+texture = ExtResource("2_yciag")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=71804743]
+visible = false
+position = Vector2(-13, -16)
+shape = SubResource("RectangleShape2D_2p4aw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=972822155]
+libraries/ = SubResource("AnimationLibrary_kepwl")
+autoplay = &"correr"
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

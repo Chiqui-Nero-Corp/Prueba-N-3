@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bju53of3achu6"]
+
+[ext_resource type="Texture2D" uid="uid://duehi5affgi2r" path="res://HIT!.png" id="1_5apb5"]
+
+[node name="Node2D" type="Node2D" unique_id=105259201]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1403167656]
+position = Vector2(0.9999695, 2.0000153)
+scale = Vector2(0.15229644, 0.12321429)
+texture = ExtResource("1_5apb5")

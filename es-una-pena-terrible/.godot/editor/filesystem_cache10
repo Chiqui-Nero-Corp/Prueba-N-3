@@ -1,44 +1,43 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795782761
-ANKY (2).png::CompressedTexture2D::6572167534171062925::1795782757::1795782757::1::::<><><>0<>0<>03cc0b18d5348e1a25d25cfe4595d506<>res://.godot/imported/ANKY (2).png-71b57ac35ee05b49f4d76f5cd267d86a.ctex::
-anky.gd::GDScript::4761637918496920296::1795782757::0::1::::<>Area2D<><>0<>0<><>::
-anky.tscn::PackedScene::8063150645897859082::1795782757::0::1::::<><><>0<>0<><>::res://anky.gd<>res://ANKY (2).png
-chauchau.gd::GDScript::8487940290459291644::1795782757::0::1::::<>Button<><>0<>0<><>::
-ESCENARIO4.png::CompressedTexture2D::4742073901166918470::1795782757::1795782757::1::::<><><>0<>0<>87a617de9e538f869110ee8ba8cef4a8<>res://.godot/imported/ESCENARIO4.png-ab31ebe8c26aaacbb01b0a979716918c.ctex::
-ESTE (2).png::CompressedTexture2D::3796351200444297794::1795782757::1795782757::1::::<><><>0<>0<>db85eed1a10151e44f857bc17f81d51b<>res://.godot/imported/ESTE (2).png-09b50d663b3c2f2906c6f223e9cc091e.ctex::
-este.gd::GDScript::8717556578150874470::1795782757::0::1::::<>Area2D<><>0<>0<><>::
-ESTE.png::CompressedTexture2D::6886230265298094990::1795782757::1795782757::1::::<><><>0<>0<>865131d6267765d4b7c994a1f09fba59<>res://.godot/imported/ESTE.png-ae12c368045850095aa86747f90b8092.ctex::
-este.tscn::PackedScene::6835249666262141595::1795782757::0::1::::<><><>0<>0<><>::res://este.gd<>res://ESTE (2).png
-explo.tscn::PackedScene::8997671053362599066::1795782757::0::1::::<><><>0<>0<><>::res://EXPLOSIÓN.png
-EXPLOSIÓN.png::CompressedTexture2D::649163469595979306::1795782757::1795782757::1::::<><><>0<>0<>4e451d9ecee2a87e1a10008899715ef2<>res://.godot/imported/EXPLOSIÓN.png-7e94799acbb9ac348a562f3a47761a97.ctex::
-EXPLOTAR.mp3::AudioStreamMP3::6984605068267699919::1795782757::1795782757::1::::<><><>0<>0<>1daa5887c8fd95e8e2248efe189c5dd1<>res://.godot/imported/EXPLOTAR.mp3-458264c735ba95e5595163825364ab06.mp3str::
-game_over.tscn::PackedScene::2864990596759206679::1795782757::0::1::::<><><>0<>0<><>::uid://bcb4adrmuaalf::::res://PERDER.jpeg
-HIT!.png::CompressedTexture2D::8571737316091403495::1795782757::1795782757::1::::<><><>0<>0<>8470de3152b0aabdac72a58f461801b0<>res://.godot/imported/HIT!.png-805861106cd273550515456715742a10.ctex::
-hit.tscn::PackedScene::3061280087852122419::1795782757::0::1::::<><><>0<>0<><>::uid://duehi5affgi2r::::res://HIT!.png
-hud.gd::GDScript::4276739653014055734::1795782757::0::1::::<>Control<><>0<>0<><>::
-HUD.png::CompressedTexture2D::1849531473317559096::1795782757::1795782757::1::::<><><>0<>0<>1d8e1c4439c7585330327ba65bf16944<>res://.godot/imported/HUD.png-f6f174f38088ca314cd82c271ac9f9c6.ctex::
-hud.tscn::PackedScene::3346810292112507041::1795782757::0::1::::<><><>0<>0<><>::uid://b16xjoq4mbkbe::::res://hud.gd<>uid://1l6rpgw7muno::::res://HUD.png
-icon.svg::CompressedTexture2D::9011464038803650710::1795782757::1795782757::1::::<><><>0<>0<>c8d59eb6f7d7bd258fc977089fcc575b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-images.jpg::CompressedTexture2D::4743289247687841902::1795782757::1795782757::1::::<><><>0<>0<>2e64c71e437b85abb02dd4c7a100a4ea<>res://.godot/imported/images.jpg-828aec76970545e387c8e5ec74aa0b53.ctex::
-juego.tscn::PackedScene::2714685464898453850::1795782757::0::1::::<><><>0<>0<><>::uid://dm436bsmiep6q::::res://anky.tscn<>uid://0rje16r5e6ui::::res://spawn_y_movimiento.gd<>uid://d12q61e8x17n8::::res://quiz_ui.tscn<>uid://dpyonhsfm6qje::::res://meteorito.tscn<>uid://b8tdi8tdc68h3::::res://ESCENARIO4.png<>uid://ch2hmablwsc6::::res://rexy.tscn<>uid://tu3xw3k6ch44::::res://velo.tscn<>uid://c4nbtfilnxked::::res://este.tscn
-meteorito.gd::GDScript::8439460073145920829::1795782757::0::1::::<>Area2D<><>0<>0<><>::
-meteorito.tscn::PackedScene::8262513420681098574::1795782757::0::1::::<><><>0<>0<><>::res://meteorito.gd<>res://METEORITO__1_-removebg-preview.png
-METEORITO__1_-removebg-preview.png::CompressedTexture2D::7897173403026316003::1795782757::1795782757::1::::<><><>0<>0<>8a96b99427b2f80d6753de77a1bed632<>res://.godot/imported/METEORITO__1_-removebg-preview.png-ec77840ff2b89190d8969369b861df8b.ctex::
-MUSIQUINHA.mp3::AudioStreamMP3::1425330482323587245::1795782757::1795782757::1::::<><><>0<>0<>c2b49eed94446e1eef7b9428aab6d9b2<>res://.godot/imported/MUSIQUINHA.mp3-983a59d9dbf1479160a2111e3e256a13.mp3str::
-PERDER.jpeg::CompressedTexture2D::2530623725917130747::1795782757::1795782757::1::::<><><>0<>0<>c5b732a9b25f0cebbdf3d6b376f3cb70<>res://.godot/imported/PERDER.jpeg-64f3e627aefe07f6a519a15aa644e9c3.ctex::
-quiz_ui.gd::GDScript::6056541092494197565::1795782757::0::1::::<>Control<><>0<>0<><>::
-quiz_ui.tscn::PackedScene::9040938389840559803::1795782757::0::1::::<><><>0<>0<><>::uid://csj3l2bn5lp8h::::res://quiz_ui.gd
-RECORRER.mp3::AudioStreamMP3::7732170625480769530::1795782757::1795782757::1::::<><><>0<>0<>a8c9996fadd30bb5f024deb4d22d4d2f<>res://.godot/imported/RECORRER.mp3-9da2035ac453edbbb2264c4438848f56.mp3str::
-rexy.gd::GDScript::3292014450369093251::1795782757::0::1::::<>Area2D<><>0<>0<><>::
-REXY.png::CompressedTexture2D::5718951833938633563::1795782757::1795782757::1::::<><><>0<>0<>160b8f15c4e3a2abd4c25fcfc4a2e71a<>res://.godot/imported/REXY.png-fcc894c8c297a3149e4c8a9bc5283b25.ctex::
-rexy.tscn::PackedScene::156480821257734443::1795782757::0::1::::<><><>0<>0<><>::res://rexy.gd<>res://REXY.png
-spawn_y_movimiento.gd::GDScript::1790370523189070220::1795782757::0::1::::<>Node2D<><>0<>0<><>::
-TREX (2).png::CompressedTexture2D::6116763514711234826::1795782757::1795782757::1::::<><><>0<>0<>6b7b7a477e183f3de074e76dc4eb36b4<>res://.godot/imported/TREX (2).png-6bc59be62c5dae034f467880ff0bff00.ctex::
-velo.gd::GDScript::3497545675721793820::1795782757::0::1::::<>Area2D<><>0<>0<><>::
-VELO.png::CompressedTexture2D::7400719487742152751::1795782757::1795782757::1::::<><><>0<>0<>a09b802ff8798b539ac28f45b6866c2c<>res://.godot/imported/VELO.png-f34295f9501b40b7e547ecb854e77ca4.ctex::
-velo.tscn::PackedScene::1376617932525179603::1795782757::0::1::::<><><>0<>0<><>::res://velo.gd<>res://VELO.png
-👁️👁️.gd::GDScript::8950496144474921227::1795782757::0::1::::<>Node2D<><>0<>0<><>::
-::res://oldtimer/::1795778280
-License.txt::TextFile::-1::1795782757::0::1::::<><><>0<>0<><>::
-Oldtimer.ttf::FontFile::9008890751944490064::1795782757::1795782757::1::::<><><>0<>0<>60e9adb5588dbefde79580276d649a34<>res://.godot/imported/Oldtimer.ttf-5bfb57fad5b56174cd7e9463b3f1ba86.fontdata::
-::res://prototipo-1.2/::1795778280
+::res://::1795780472
+ANKY (2).png::CompressedTexture2D::6572167534171062925::1795777344::1795777344::1::::<><><>0<>0<>03cc0b18d5348e1a25d25cfe4595d506<>res://.godot/imported/ANKY (2).png-71b57ac35ee05b49f4d76f5cd267d86a.ctex::
+anky.gd::GDScript::4761637918496920296::1795778475::0::1::::<>Area2D<><>0<>0<><>::
+anky.tscn::PackedScene::8063150645897859082::1795777344::0::1::::<><><>0<>0<><>::res://anky.gd<>res://ANKY (2).png
+chauchau.gd::GDScript::8487940290459291644::1795777344::0::1::::<>Button<><>0<>0<><>::
+ESCENARIO4.png::CompressedTexture2D::4742073901166918470::1795777344::1795777344::1::::<><><>0<>0<>87a617de9e538f869110ee8ba8cef4a8<>res://.godot/imported/ESCENARIO4.png-ab31ebe8c26aaacbb01b0a979716918c.ctex::
+ESTE (2).png::CompressedTexture2D::3796351200444297794::1795777344::1795777344::1::::<><><>0<>0<>db85eed1a10151e44f857bc17f81d51b<>res://.godot/imported/ESTE (2).png-09b50d663b3c2f2906c6f223e9cc091e.ctex::
+este.gd::GDScript::8717556578150874470::1795777344::0::1::::<>Area2D<><>0<>0<><>::
+ESTE.png::CompressedTexture2D::6886230265298094990::1795777344::1795777344::1::::<><><>0<>0<>865131d6267765d4b7c994a1f09fba59<>res://.godot/imported/ESTE.png-ae12c368045850095aa86747f90b8092.ctex::
+este.tscn::PackedScene::6835249666262141595::1795777344::0::1::::<><><>0<>0<><>::res://este.gd<>res://ESTE (2).png
+explo.tscn::PackedScene::8997671053362599066::1795777344::0::1::::<><><>0<>0<><>::res://EXPLOSIÓN.png
+EXPLOSIÓN.png::CompressedTexture2D::649163469595979306::1795777344::1795777344::1::::<><><>0<>0<>4e451d9ecee2a87e1a10008899715ef2<>res://.godot/imported/EXPLOSIÓN.png-7e94799acbb9ac348a562f3a47761a97.ctex::
+EXPLOTAR.mp3::AudioStreamMP3::6984605068267699919::1795777344::1795777344::1::::<><><>0<>0<>1daa5887c8fd95e8e2248efe189c5dd1<>res://.godot/imported/EXPLOTAR.mp3-458264c735ba95e5595163825364ab06.mp3str::
+HIT!.png::CompressedTexture2D::8571737316091403495::1795777344::1795777344::1::::<><><>0<>0<>8470de3152b0aabdac72a58f461801b0<>res://.godot/imported/HIT!.png-805861106cd273550515456715742a10.ctex::
+hit.tscn::PackedScene::3061280087852122419::1795777922::0::1::::<><><>0<>0<><>::uid://duehi5affgi2r::::res://HIT!.png
+hud.gd::GDScript::4276739653014055734::1795778435::0::1::::<>Control<><>0<>0<><>::
+HUD.png::CompressedTexture2D::1849531473317559096::1795777344::1795777344::1::::<><><>0<>0<>1d8e1c4439c7585330327ba65bf16944<>res://.godot/imported/HUD.png-f6f174f38088ca314cd82c271ac9f9c6.ctex::
+hud.tscn::PackedScene::3346810292112507041::1795777344::0::1::::<><><>0<>0<><>::uid://b16xjoq4mbkbe::::res://hud.gd<>uid://1l6rpgw7muno::::res://HUD.png
+icon.svg::CompressedTexture2D::9011464038803650710::1795777344::1795777344::1::::<><><>0<>0<>c8d59eb6f7d7bd258fc977089fcc575b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+images.jpg::CompressedTexture2D::4743289247687841902::1795777344::1795777344::1::::<><><>0<>0<>2e64c71e437b85abb02dd4c7a100a4ea<>res://.godot/imported/images.jpg-828aec76970545e387c8e5ec74aa0b53.ctex::
+juego.tscn::PackedScene::2714685464898453850::1795778475::0::1::::<><><>0<>0<><>::uid://dm436bsmiep6q::::res://anky.tscn<>uid://0rje16r5e6ui::::res://spawn_y_movimiento.gd<>uid://d12q61e8x17n8::::res://quiz_ui.tscn<>uid://dpyonhsfm6qje::::res://meteorito.tscn<>uid://b8tdi8tdc68h3::::res://ESCENARIO4.png<>uid://ch2hmablwsc6::::res://rexy.tscn<>uid://tu3xw3k6ch44::::res://velo.tscn<>uid://c4nbtfilnxked::::res://este.tscn
+meteorito.gd::GDScript::8439460073145920829::1795777344::0::1::::<>Area2D<><>0<>0<><>::
+meteorito.tscn::PackedScene::8262513420681098574::1795777344::0::1::::<><><>0<>0<><>::res://meteorito.gd<>res://METEORITO__1_-removebg-preview.png
+METEORITO__1_-removebg-preview.png::CompressedTexture2D::7897173403026316003::1795777344::1795777344::1::::<><><>0<>0<>8a96b99427b2f80d6753de77a1bed632<>res://.godot/imported/METEORITO__1_-removebg-preview.png-ec77840ff2b89190d8969369b861df8b.ctex::
+MUSIQUINHA.mp3::AudioStreamMP3::1425330482323587245::1795777344::1795777344::1::::<><><>0<>0<>c2b49eed94446e1eef7b9428aab6d9b2<>res://.godot/imported/MUSIQUINHA.mp3-983a59d9dbf1479160a2111e3e256a13.mp3str::
+PERDER.jpeg::CompressedTexture2D::2530623725917130747::1795780357::1795780478::1::::<><><>0<>0<>c5b732a9b25f0cebbdf3d6b376f3cb70<>res://.godot/imported/PERDER.jpeg-64f3e627aefe07f6a519a15aa644e9c3.ctex::
+quiz_ui.gd::GDScript::6056541092494197565::1795779933::0::1::::<>Control<><>0<>0<><>::
+quiz_ui.tscn::PackedScene::9040938389840559803::1795780077::0::1::::<><><>0<>0<><>::uid://csj3l2bn5lp8h::::res://quiz_ui.gd
+RECORRER.mp3::AudioStreamMP3::7732170625480769530::1795777344::1795777344::1::::<><><>0<>0<>a8c9996fadd30bb5f024deb4d22d4d2f<>res://.godot/imported/RECORRER.mp3-9da2035ac453edbbb2264c4438848f56.mp3str::
+rexy.gd::GDScript::3292014450369093251::1795778475::0::1::::<>Area2D<><>0<>0<><>::
+REXY.png::CompressedTexture2D::5718951833938633563::1795777344::1795777344::1::::<><><>0<>0<>160b8f15c4e3a2abd4c25fcfc4a2e71a<>res://.godot/imported/REXY.png-fcc894c8c297a3149e4c8a9bc5283b25.ctex::
+rexy.tscn::PackedScene::156480821257734443::1795777344::0::1::::<><><>0<>0<><>::res://rexy.gd<>res://REXY.png
+spawn_y_movimiento.gd::GDScript::1790370523189070220::1795780077::0::1::::<>Node2D<><>0<>0<><>::
+TREX (2).png::CompressedTexture2D::6116763514711234826::1795777344::1795777344::1::::<><><>0<>0<>6b7b7a477e183f3de074e76dc4eb36b4<>res://.godot/imported/TREX (2).png-6bc59be62c5dae034f467880ff0bff00.ctex::
+velo.gd::GDScript::3497545675721793820::1795778475::0::1::::<>Area2D<><>0<>0<><>::
+VELO.png::CompressedTexture2D::7400719487742152751::1795777344::1795777344::1::::<><><>0<>0<>a09b802ff8798b539ac28f45b6866c2c<>res://.godot/imported/VELO.png-f34295f9501b40b7e547ecb854e77ca4.ctex::
+velo.tscn::PackedScene::1376617932525179603::1795777344::0::1::::<><><>0<>0<><>::res://velo.gd<>res://VELO.png
+👁️👁️.gd::GDScript::8950496144474921227::1795777344::0::1::::<>Node2D<><>0<>0<><>::
+::res://oldtimer/::1795777344
+License.txt::TextFile::-1::1795777344::0::1::::<><><>0<>0<><>::
+Oldtimer.ttf::FontFile::9008890751944490064::1795777344::1795777344::1::::<><><>0<>0<>60e9adb5588dbefde79580276d649a34<>res://.godot/imported/Oldtimer.ttf-5bfb57fad5b56174cd7e9463b3f1ba86.fontdata::
+::res://prototipo-1.2/::1795777344

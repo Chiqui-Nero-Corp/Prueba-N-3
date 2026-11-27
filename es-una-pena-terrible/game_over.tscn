@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bg228g5iuhtvj"]
+
+[ext_resource type="Texture2D" uid="uid://bcb4adrmuaalf" path="res://PERDER.jpeg" id="1_y26ei"]
+
+[node name="game_over" type="Node2D" unique_id=1448623963]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=408458107]
+position = Vector2(577.75, 324.25)
+scale = Vector2(1.9399323, 1.2398844)
+texture = ExtResource("1_y26ei")

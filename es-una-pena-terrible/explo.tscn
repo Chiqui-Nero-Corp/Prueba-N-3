@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d1gsle132tiuk"]
+
+[ext_resource type="Texture2D" path="res://EXPLOSIÓN.png" id="1_83bu8"]
+
+[node name="Node2D" type="Node2D" unique_id=1726246936]
+position = Vector2(-256, -116)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=435873362]
+position = Vector2(1, 62.999985)
+scale = Vector2(0.654703, 0.45962194)
+texture = ExtResource("1_83bu8")
+centered = false

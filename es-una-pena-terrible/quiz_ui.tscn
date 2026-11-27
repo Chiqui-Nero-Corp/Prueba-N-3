@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://d12q61e8x17n8"]
+
+[ext_resource type="Script" uid="uid://csj3l2bn5lp8h" path="res://quiz_ui.gd" id="1_ejrqg"]
+
+[node name="QuizUi" type="Control" unique_id=1973503902]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ejrqg")
+
+[node name="LabelTiempo" type="Label" parent="." unique_id=1897729341]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 21.0
+offset_top = 87.0
+offset_right = -597.0
+offset_bottom = 147.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 16
+
+[node name="LabelPregunta" type="Label" parent="." unique_id=1587342722]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 339.0
+offset_top = -10.0
+offset_right = -333.0
+offset_bottom = 86.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 15
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1393725097]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -32.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Boton0" type="Button" parent="VBoxContainer" unique_id=1238396582]
+layout_mode = 2
+
+[node name="Boton1" type="Button" parent="VBoxContainer" unique_id=397059512]
+layout_mode = 2
+
+[node name="Boton2" type="Button" parent="VBoxContainer" unique_id=1440281409]
+layout_mode = 2
+
+[node name="TimerPregunta" type="Timer" parent="." unique_id=55255395]

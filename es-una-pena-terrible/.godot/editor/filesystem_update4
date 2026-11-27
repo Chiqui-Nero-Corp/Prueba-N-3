@@ -1,3 +1,12 @@
-res://game_over.tscn
-res://juego.tscn
+res://quiz_ui.tscn
 res://spawn_y_movimiento.gd
+res://hit.tscn
+res://velo.gd
+res://juego.tscn
+res://hud.gd
+res://anky.gd
+res://rexy.gd
+res://quiz_ui.gd
+res://game_over.tscn
+res://meteorito.gd
+res://meteorito.tscn

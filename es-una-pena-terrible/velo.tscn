@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://tu3xw3k6ch44"]
+
+[ext_resource type="Script" path="res://velo.gd" id="1_fk8cl"]
+[ext_resource type="Texture2D" path="res://VELO.png" id="1_ic2wd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2p4aw"]
+size = Vector2(115, 16)
+
+[node name="Node2D" type="Area2D" unique_id=821982272]
+script = ExtResource("1_fk8cl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=569289596]
+position = Vector2(-19.999998, -0.9999999)
+scale = Vector2(0.13938306, 0.15202703)
+texture = ExtResource("1_ic2wd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=968202454]
+position = Vector2(-18.5, 9)
+shape = SubResource("RectangleShape2D_2p4aw")

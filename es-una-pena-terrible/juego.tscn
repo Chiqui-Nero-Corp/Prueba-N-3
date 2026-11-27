@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://bexaqc1iyfcuc"]
+
+[ext_resource type="PackedScene" uid="uid://dm436bsmiep6q" path="res://anky.tscn" id="1_gvuhb"]
+[ext_resource type="Script" uid="uid://0rje16r5e6ui" path="res://spawn_y_movimiento.gd" id="1_n74ki"]
+[ext_resource type="PackedScene" uid="uid://d12q61e8x17n8" path="res://quiz_ui.tscn" id="2_icdfu"]
+[ext_resource type="PackedScene" uid="uid://dpyonhsfm6qje" path="res://meteorito.tscn" id="2_n74ki"]
+[ext_resource type="Texture2D" uid="uid://b8tdi8tdc68h3" path="res://ESCENARIO4.png" id="3_6v0qg"]
+[ext_resource type="PackedScene" uid="uid://ch2hmablwsc6" path="res://rexy.tscn" id="4_6v0qg"]
+[ext_resource type="PackedScene" uid="uid://tu3xw3k6ch44" path="res://velo.tscn" id="5_cpk6b"]
+[ext_resource type="PackedScene" uid="uid://c4nbtfilnxked" path="res://este.tscn" id="7_cpk6b"]
+
+[sub_resource type="Animation" id="Animation_l4niy"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ybvdj"]
+resource_name = "whobble"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6666667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8gqk3"]
+_data = {
+&"RESET": SubResource("Animation_l4niy"),
+&"whobble": SubResource("Animation_ybvdj")
+}
+
+[node name="Juego" type="Node2D" unique_id=1883618861]
+script = ExtResource("1_n74ki")
+
+[node name="Preguntas" type="CanvasLayer" parent="." unique_id=293683299]
+
+[node name="QuizUi" parent="Preguntas" unique_id=1973503902 instance=ExtResource("2_icdfu")]
+
+[node name="Meteorito" parent="." unique_id=1193319771 instance=ExtResource("2_n74ki")]
+visible = false
+position = Vector2(-57692, 45665)
+rotation = -0.034920204
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=234412222]
+position = Vector2(575, 310.99997)
+scale = Vector2(1.2861953, 1.3627255)
+texture = ExtResource("3_6v0qg")
+
+[node name="Rexy" parent="." unique_id=1314188108 instance=ExtResource("4_6v0qg")]
+visible = false
+position = Vector2(-32, -119)
+
+[node name="Velo" parent="." unique_id=821982272 instance=ExtResource("5_cpk6b")]
+visible = false
+position = Vector2(54, -91)
+
+[node name="Anky" parent="." unique_id=408500657 instance=ExtResource("1_gvuhb")]
+visible = false
+position = Vector2(3054, 1627)
+
+[node name="Este" parent="." unique_id=824407061 instance=ExtResource("7_cpk6b")]
+
+[node name="ObjetivoKills" type="Label" parent="." unique_id=1698472697]
+offset_left = 478.0
+offset_top = 34.0
+offset_right = 694.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 25
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ObjetivoKills" unique_id=968714469]
+libraries/ = SubResource("AnimationLibrary_8gqk3")
